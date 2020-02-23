@@ -10,11 +10,6 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/one-cikanlar
-  label: One cikanlar
-  create: all
-  match: "**/*"
-- type: directory
   path: content/posts
   label: Posts
   create: all
