@@ -1,0 +1,16 @@
+---
+label: Kara Köşe Şablonu
+hide_body: false
+fields:
+- type: file
+  name: image
+  label: image
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: keywords
+  label: keywords

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container">
+<div style="min-height:500px">
+  <h1 class="text-center">
+{{ .Title }}   <!-- kategori icerik basligi gosterilir {{ $.Site.Params.baslikkategori }}    /  {{ .Type | humanize }}-->
+  </h1>
+  {{ range .Pages }}
+    <div class="row mt-2">
+      <div class="d-none d-sm-block col-sm-2 mt-auto offset-sm-2 text-right">
+        <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+      </div>
+      <div class="col">
+        <a class="text-body" href="{{ .URL | relURL }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
+      </div>
+    </div>
+  {{ end }}
+</div>
+</div>
+{{ end }}
+

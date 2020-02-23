@@ -1,0 +1,75 @@
+{{ define "main" }} <!-- https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae -->
+<div style="min-height:500px">
+<div class="search">
+<!--
+  <header>
+    <h1>{{ .Title }}</h1>
+    {{/* partial "debugprint.html" (site.GetPage "/search") */}}
+  </header>
+
+ removed because already exist in header
+  <form action="{{ .Permalink }}">
+    <input id="search-query" name="q"/>
+  </form>
+  <hr />
+-->
+<div id="loader" class="center"></div>
+  <div id="search-results" class="container"></div>
+</div>
+
+
+<script>
+var deletes = document.getElementById('loader');
+setInterval(() => {
+  let searchResults = document.getElementById('search-results')
+  if (searchResults.textContent != '') deletes.remove()
+}, 1000)
+</script>
+
+
+<template id="search-result-template">
+<div class="search_summary">
+<hr style="border: 1px solid red;">
+  <div class="row"><div class="col">
+  <h2 class="post-title no-text-decoration"><a class="search_link search_title" href=""></a></h2>
+  <p><em class="search_snippet"></em></p>
+  </div></div>
+  <small>
+    <table>
+         <tr class="search_iftags row"><td class="col-sm-3"><strong>Konular</strong></td><td class="search_tags col-sm-9"></td></tr>
+	 <tr class="search_ifcategories row"><td class="col-sm-3"><strong>Kategoriler</strong></td><td class="search_categories col-sm-9"></td></tr>
+    </table>
+  </small>
+</div>
+</template>
+
+  <!-- If you don't need IE 11 support you can remove this next script block -->
+  <script type="text/javascript">
+    // @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+    if (window.navigator.userAgent.indexOf('Trident/') > 0) {
+      let urls = [
+        {{ "js/libs/iecompat/promises.min.js" | absURL }},
+        {{ "js/libs/iecompat/fetch.min.js" | absURL }},
+        {{ "js/libs/iecompat/template.min.js" | absURL }},
+        {{ "js/libs/iecompat/remove.min.js" | absURL }}
+      ];
+      let head = document.getElementsByTagName("head")[0];
+      urls.forEach(function(url) {
+        let script = document.createElement("script");
+        script.src = url;
+        head.appendChild(script);
+      });
+    }
+    // @license-end
+  </script>
+  <!-- These are the two libraries needed for current browsers. -->
+  <script src={{ "js/libs/fuse.js/3.2.1/fuse.min.js" | absURL }}></script>
+  <script src={{ "js/libs/mark.js/9.0.0/mark.min.js" | absURL }}></script>
+
+  <!-- Below works *only if* this theme component is named "hugo-search-fuse-js"
+       AND *if* the themesDir is left at the default value of "themes".  -->
+  {{ $search_js_md5 := (readFile "themes/hugo-search-fuse-js/static/js/search.js" | md5) }}
+  <script src={{ printf "%s?%s" ("js/search.js" | absURL) $search_js_md5 }}></script>
+
+</div>
+{{ end }}

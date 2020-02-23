@@ -1,0 +1,65 @@
+{{ define "main" }}
+<div class="container">
+<div style="min-height:500px"> 
+
+
+<h3 class="mt-5"><a href="/{{ .Section }}/">{{ with .Site.GetPage .Section  }}{{ .Title }}{{ end }}</a> /</h3>
+<hr>
+
+       
+
+{{ if .Params.image }}<a href="{{ .Params.image }}"><img src="{{ .Params.image }}" alt="{{ .Title }}" style="height: auto;padding-left: 0px;padding-right: 0px;" class="col-md-6"/></a>{{ end }}
+
+  <h1 class="mt-5">{{ .Title | markdownify}} </h1>
+
+  <p class="text-muted mt-3">
+   Yayınlanma &nbsp;<i class="fa fa-calendar"></i> {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+<br />
+
+  </p>
+
+
+
+
+  <article class="article mt-5">
+    {{ .Content }}
+
+<img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="https://cdn.printfriendly.com/buttons/printfriendly-pdf-email-button-notext.png" alt="yazdır" onclick="myFunction()"/>
+<script>
+  function myFunction() {
+    window.print();
+  }
+</script>
+  <br /><br />
+  <div style="background-color: black;  width: 300px;">
+&nbsp;{{ partial "share-buttons.html" . }}  <!-- add social -->
+  </div>
+
+ </article>
+
+</div>
+
+
+<br /><br />
+
+{{ if or .NextInSection .PrevInSection }}
+
+      <div class="row">
+        <div class="col text-center">
+          {{ if .PrevInSection }}
+           <a href="{{ .PrevInSection.URL | relURL}}"><button type="button" class="btn btn-dark">önceki</button></a>
+          {{ end }}
+        </div>
+        <div class="col text-center">
+          {{ if .NextInSection }}
+           <a href="{{ .NextInSection.URL | relURL }}"><button type="button" class="btn btn-dark">sonraki</button></a>
+          {{ end }}
+        </div>
+       </div>
+
+{{ end }}
+
+
+</div>
+</div>
+{{ end }}

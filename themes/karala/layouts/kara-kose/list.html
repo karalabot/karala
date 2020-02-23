@@ -1,0 +1,79 @@
+{{ define "main" }}
+{{ $dateFormat := default "Jan 2" (index .Site.Params "date_format") }}
+{{ $.Scratch.Set "lastYear" ""}}
+<div class="container">
+<div style="min-height:500px">
+  <h1 class="text-center" style="color:white">{{ .Title }}</h1>
+<div class="hidden-md hidden-lg"><hr></div><div class="hidden-md hidden-lg"><hr></div>
+        
+          <div class="container">
+		<div class="row">
+
+            {{ $recentposts := 5 }}
+            {{ if .Params.recentposts }}
+              {{ $recentposts = .Params.recentposts }}
+            {{ end }}
+
+            {{ range first 100 (where .Pages "Type" "kara-kose" ) }}
+
+              <div class="col-md-4 col-sm-12">
+            {{ if .Params.image }}
+		<img src="{{ .Params.image }}" alt="{{ .Title }}" style="height: auto;padding-left: 0px;padding-right: 0px;" class="col-md-9"/>
+	    {{ end }} <!-- burası sayfadan resim alır/   -->
+            
+                <h3 class="mt-5"><a class="text-white" href="{{ .URL | relURL}}" >{{ .Title | markdownify}}</a></h3>
+		<div class="hidden-md hidden-lg"><hr></div>
+            </div>
+        
+            {{ end }}
+
+</div>
+</div>
+
+
+              <button onclick="topFunction()" id="myBtn" title="Go to top">başa dön</button>
+
+         
+              
+              <script>
+              //Get the button
+              var mybutton = document.getElementById("myBtn");
+              
+              // When the user scrolls down 20px from the top of the document, show the button
+              window.onscroll = function() {scrollFunction()};
+              
+              function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  mybutton.style.display = "block";
+                } else {
+                  mybutton.style.display = "none";
+                }
+              }
+              
+              // When the user clicks on the button, scroll to the top of the document
+              function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+              }
+              </script>
+
+
+          
+
+
+        </div>
+        
+</div>      
+
+
+
+
+
+</div>
+
+
+
+
+
+
+{{ end }}

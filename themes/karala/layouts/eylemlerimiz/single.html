@@ -1,0 +1,112 @@
+{{ define "main" }}
+<div class="container">
+<h3 class="mt-5"><a href="/{{ .Section }}/">{{ with .Site.GetPage .Section  }}{{ .Title }}{{ end }}</a> /</h3>
+<hr>
+ 
+
+
+{{ if .Params.image }}<a href="{{ .Params.image }}"><img src="{{ .Params.image }}" alt="{{ .Title }}" style="height: auto;padding-left: 0px;padding-right: 0px;" class="col-md-6"/></a>{{ end }}
+
+  <h1 class="mt-5">{{ .Title | markdownify}} </h1>
+
+<!--<p class="text-muted">(tahmini okunma süresi {{ .ReadingTime }} dakika)</p>-->
+
+  {{ if .Params.Subtitle }}
+    <h2 class="font-weight-light font-italic mb-3">{{ .Params.Subtitle | markdownify }}</h2>
+  {{ end }}
+
+  <p class="text-muted mt-3">
+   <!-- <a class="text-muted" href="{{ .Permalink }}">-->Yayınlanma &nbsp;<i class="fa fa-calendar"></i> {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}<!--</a>-->
+<br />
+  
+<!--
+  {{ if .Params.categories }} <i class="fa fa-folder-open"></i> {{ end }} {{ range .Params.categories }}
+        <a class="text-muted" href="{{ "/categories/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+      {{ end }}-->
+
+
+  </p>
+
+
+
+
+  <article class="article mt-5">
+    {{ .Content }}
+
+<img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="https://cdn.printfriendly.com/buttons/printfriendly-pdf-email-button-notext.png" alt="yazdır" onclick="myFunction()"/>
+<script>
+  function myFunction() {
+    window.print();
+  }
+</script>
+ 
+<!-- add pdf sharing-->
+<!--
+<script>var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'right';var pfDisablePDF = 0;var pfDisableEmail = 0;var pfDisablePrint = 0;var pfCustomCSS = '';var pfBtVersion='2';(function(){var js,pf;pf=document.createElement('script');pf.type='text/javascript';pf.src='//cdn.printfriendly.com/printfriendly.js';document.getElementsByTagName('head')[0].appendChild(pf)})();</script><a href="https://www.printfriendly.com" style="color:#6D9F00;text-decoration:none;" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF"><img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="//cdn.printfriendly.com/buttons/printfriendly-pdf-email-button-notext.png" alt="Print Friendly and PDF"/></a>
+-->
+
+  <br /><br />
+  <div style="background-color: black;  width: 300px;">
+&nbsp;{{ partial "share-buttons.html" . }}  <!-- add social -->
+  </div>
+
+  <br /><br />
+
+  {{ if .Params.tags }}<i class="fa fa-tags"></i>{{ end }} {{ range .Params.tags }}
+      <a class="text-muted" href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+    {{ end }}
+
+
+ </article>
+
+</div>
+
+
+<br /><br />
+
+{{ if or .NextInSection .PrevInSection }}
+  <div class="bg-light py-5">
+    <div class="container">
+      <!--<h2 class="text-center">Sıradakini oku</h2>-->
+
+      <div class="row">
+        <div class="col-md-6 text-center">
+          {{ if .PrevInSection }}
+            Önceki Gönderi:
+            <a href="{{ .PrevInSection.URL | relURL}}">{{ .PrevInSection.Title | markdownify }}</a>
+          {{ end }}
+        </div>
+        <div class="col-md-6 text-center">
+          {{ if .NextInSection }}
+            Sonraki Gönderi:
+            <a href="{{ .NextInSection.URL | relURL }}">{{ .NextInSection.Title | markdownify }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
+
+<!--
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<div class="container mt-5">
+  <h2 class="text-center">Benzer Yazılar</h2>
+  <div class="row">
+  	{{ range . }}
+      <div class="col-md mb-3">
+        <p class="lead mb-0"><a class="text-body" href="{{ .RelPermalink }}">{{ .Title | markdownify}}</a></p>
+
+        {{ if .Params.Subtitle }}
+          <p class="lead font-italic mb-0">{{ .Params.Subtitle | markdownify }}</p>
+        {{ end }}
+        <p class="font-weight-light mt-3">{{ .Summary }}</p> 
+        <a href="{{ .RelPermalink }}" class="btn btn-primary bg-dark text-light">Daha fazla oku...</a> 
+
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }} -->
+
+{{ end }}

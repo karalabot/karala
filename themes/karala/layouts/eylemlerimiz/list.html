@@ -1,0 +1,107 @@
+{{ define "main" }}
+{{ $dateFormat := default "Jan 2" (index .Site.Params "date_format") }}
+{{ $.Scratch.Set "lastYear" ""}}
+<div class="container">
+<div style="min-height:500px">
+  <h1 class="text-center" style="color:white">{{ .Title }}</h1>
+
+        
+          
+
+            {{ $recentposts := 5 }}
+            {{ if .Params.recentposts }}
+              {{ $recentposts = .Params.recentposts }}
+            {{ end }}
+
+            {{ range first 100 (where .Pages "Type" "eylemlerimiz" ) }}
+
+            <br />
+            <div class="jumbotron text-light bg-dark">
+            
+            {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" style="height: auto;padding-left: 0px;padding-right: 0px;" class="col-md-6"/>{{ end }} <!-- burası sayfadan resim alır/   -->
+            
+            
+                <h2 class="mt-5"><a class="text-white" href="{{ .URL | relURL}}" >{{ .Title | markdownify}}</a></h2>
+                {{ if .Params.Subtitle }}
+                  <div/div class="font-weight-light font-italic mb-3">{{ .Params.Subtitle | markdownify }}</h2>
+                {{ end }}
+            
+                <p class="text-muted mt-3">
+                  <!--Yayınlanma--> 	&nbsp;<i class="fa fa-calendar"></i> {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+              <br />
+
+
+              <!--
+                {{ if .Params.tags }}<i class="fa fa-tags"></i>{{ end }} {{ range .Params.tags }}
+                    <a class="text-muted" href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+                  {{ end }}
+                
+            <br />
+              {{ if .Params.categories }} <i class="fa fa-folder-open"></i> {{ end }} {{ range .Params.categories }}
+                    <a class="text-muted" href="{{ "/categories/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+                  {{ end }}
+                
+              -->
+            </p>
+            
+            
+                <article class="article">
+                  <p style="max-width: 70em;font-size: 1em;">{{ .Summary }}
+                                    </p>
+                </article>
+            
+                <!--<p class="text-muted">Okuma süresi: {{ .ReadingTime }} dakika <i class="fa fa-hourglass-1"></i> </p>-->
+                
+              
+              
+            </div>
+            {{ end }}
+
+
+
+              <button onclick="topFunction()" id="myBtn" title="Go to top">başa dön</button>
+
+         
+              
+              <script>
+              //Get the button
+              var mybutton = document.getElementById("myBtn");
+              
+              // When the user scrolls down 20px from the top of the document, show the button
+              window.onscroll = function() {scrollFunction()};
+              
+              function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  mybutton.style.display = "block";
+                } else {
+                  mybutton.style.display = "none";
+                }
+              }
+              
+              // When the user clicks on the button, scroll to the top of the document
+              function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+              }
+              </script>
+
+
+          
+
+
+        </div>
+        
+      
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+{{ end }}

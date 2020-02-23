@@ -1,0 +1,70 @@
+<!--   SAYFA VERİLERİ İÇİN
+<footer class="footer mt-5">
+  <div class="container">
+
+
+<!--
+    <table class="table table-sm">
+      <caption>Hugo Variables for current page</caption>
+      <tr><th>Name</th><td>{{ .Name }}</td></tr>
+      <tr><th>Kind</th><td>{{ .Kind }}</td></tr>
+      <tr><th>Type</th><td>{{ .Type }}</td></tr>
+      <tr><th>List Page</th><td>.Pages</td></tr>
+      <tr><th>IsPage</th><td>{{ .IsPage }}</td></tr>
+      <tr><th>IsHome</th><td>{{ .IsPage }}</td></tr>
+      <tr><th>Next</th><td>{{ .NextInSection }}</td></tr>
+      <tr><th>Prev</th><td>{{ .PrevInSection }}</td></tr>
+      <tr><th>Section</th><td>{{ .CurrentSection }}</td></tr>
+    </table>
+ 
+
+
+  </div>
+
+
+
+</footer>
+
+-->
+
+<br />
+<br />
+
+
+
+
+
+<!--dynamic footer -->
+{{ if or (eq .URL "/") }}
+
+<footer id="sticky-footer" class="bg-dark" style="color: white;"> <!-- color -->
+  &nbsp;<br />
+  
+  {{else}}
+
+<footer id="sticky-footer" class="py-4 text-white-50"> <!-- color in style /bg-dark-->
+{{ end }}
+
+  <!-- {{ if (eq .URL "/posts/") }}{{else}}fixed-bottom{{ end }} -->
+
+
+
+
+<!-- configure xml -->
+
+<p style="text-align:center"><a href="/" class="text-danger">Karala</a>. 2018, 2019, 2020 <br />| <a href="{{ if or (eq .URL "/categories/") (eq .URL "/tags/") (eq .URL "/posts/") }}index.xml{{else}}/index.xml{{ end }}" class="text-danger">RSS</a> | <a href="/index.json" class="text-danger">JSON</a> | <a href="/sitemap.xml" class="text-danger">SITEMAP.XML</a> | <br/>
+
+  hugo ve netlify CMS (<a href="https://github.com/anarcho-copy/karala-hugo-netlify-cms/" class="text-danger"> KAYNAK KODLARI</a> )</p> 
+
+{{ if (eq .URL "/") }}
+&nbsp;<br />
+{{ end }}
+
+</footer>
+
+
+
+<!-- {{ .Permalink }} -->
+
+
+

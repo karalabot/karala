@@ -1,0 +1,274 @@
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157817378-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-157817378-1');
+</script>
+
+
+  <title>{{ .Title }}</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{ if or (eq .URL "/") }}
+  <meta name="google-site-verification" content="qgBrvmPJ7qX0QQtC7e04JhUog5PFjs8JV-sQB_MYr0M" />
+  <meta name="yandex-verification" content="27cd87957110ea1b" />
+{{ end }}
+  <meta name="author" content="{{ $.Site.Params.yazar }}">
+  <meta name="generator" content="Hugo 0.53" />  
+  {{ if (eq $.Section "") }} 
+  {{ with .Site.GetPage "kelime.md" }}
+  <meta name="keywords" content="{{ delimit .Keywords ", " }}"> {{ end }}
+  {{ else }} 
+  <meta name="keywords" content="{{ range .Params.tags }}{{ . }}, {{ end }}">
+  {{ end }}
+  
+  <meta name="description" content=" {{ if gt (len .Summary) 150 }}{{slicestr .Summary 0 150 | markdownify }}...{{ else if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}"/>
+  
+  
+
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+    <!-- Start of Open Graph -->
+    <meta property="og:title" content="{{ .Title }}">
+    {{ if .IsPage }}
+    <meta property="og:type" content="article">
+    {{ else }}
+    <meta property="og:type" content="website">
+    {{ end }}
+
+    <meta property="og:description" content="{{ if gt (len .Summary) 150 }}{{slicestr .Summary 0 150 | markdownify }}...{{ else if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}">
+
+    
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    {{ if .Params.image }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image }}">
+    {{ end }}
+   
+    <meta property="og:tags" content="{{ range .Params.tags }}{{ . }}, {{ end }}">
+    
+    <!-- End of Open Graph -->
+
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+  <!-- Adding code highlight  themes/mytheme/static/css/syntax.css -->
+  <link rel="stylesheet" href="/css/syntax.css"/>
+  
+
+<!-- added for rss icon -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+<!-- search script -->
+<!--  OLD
+{{ if or (eq .URL "/search/") }}
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="{{ "/js/search.js" | absURL }}"></script>
+{{ end }}
+-->
+
+
+<!-- for identy -->
+  
+{{ if or (eq .URL "/") }}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ end }}
+
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+
+
+
+<style>
+a { color: red; } /* a color is red*/
+
+  .article p, .article ul, .article ol, .article blockquote {
+    max-width: 45em;
+  }
+
+  .article p:first-child {
+    font-size: 1.25em;
+    font-weight: 300;
+    max-width: 36em; /* 45 / 1.25 */
+  }
+
+img{max-width:100%}
+
+
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left;
+height: 36px;
+width: 32px;
+float: left;
+text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+
+
+/* button color is black */
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: black;
+    border-color: black;
+}
+
+
+/* footer color / black*/
+
+.py-4 {
+background-color: black;
+}
+
+
+
+/* for card href */
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+
+
+{{ if or (eq .URL "/") }}body {background-color: black}  {{else}}{{ end }} 
+/* add background color main page*/
+
+
+
+
+/* başa dön butonu */
+
+{{ if or (eq .URL "/") (eq .URL "/posts/") (eq .URL "/eylemlerimiz/") (eq .URL "/kara-kose/")}}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 70px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:#dc3545; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+{{ end }}
+
+
+
+
+
+{{ if or (eq .URL "/") }}
+span.carousel-control-next-icon {
+    background-color: rgb(0,0,0,0.3);
+}
+span.carousel-control-next-icon:hover {
+    height: 50px;
+    width: 50px;
+}
+span.carousel-control-prev-icon {
+    background-color: rgb(0,0,0,0.3);
+}
+span.carousel-control-prev-icon:hover {
+    height: 50px;
+    width: 50px;
+}
+{{ end }}
+
+
+{{ if or (eq .URL "/posts/") }}body {background-color:#99b3ac}  {{else}}{{ end }} 
+/* add background color posts page*/
+
+{{ if or (eq .URL "/eylemlerimiz/") }}body {background-color:black}  {{else}}{{ end }} 
+/* add background color posts page*/
+
+{{ if or (eq .URL "/kara-kose/") }}body {background-color:black}  {{else}}{{ end }} 
+/* add background color posts page*/
+
+{{ if or (eq .URL "/") }} 
+img.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+{{else}}{{ end }} 
+
+
+
+/* begin the load */
+#loader { 
+            border: 12px solid #f3f3f3; 
+            border-radius: 50%; 
+            border-top: 12px solid #444444; 
+            width: 70px; 
+            height: 70px; 
+            animation: spin 1s linear infinite; 
+        } 
+          
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+          
+        .center { 
+            position: absolute; 
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto; 
+        } 
+/*end of the load*/
+
+</style>
+
+{{ template "_internal/twitter_cards.html" . }}
+
+
+</head>

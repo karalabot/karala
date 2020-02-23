@@ -1,0 +1,281 @@
+{{ define "main" }}
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">başa dön</button>
+
+<div class="jumbotron" style="padding-top: 1px;padding-bottom: 1px;">
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-sm-6">
+        <br>
+        <img src="https://karala.org/images/uploads/karala-logo.jpeg" class="center-block" height="70" alt="{{ .Title}}"/>
+      </div>
+
+
+      <div class="col-sm-6" style="text-align:center">
+        <div class="rounded float-center">
+
+          <!--  <h1 class="d-none d-sm-block display-4">{{ .Title}}</h1>-->
+          <p class="lead">{{ .Site.Params.Description }}</p>
+          {{ .Content }}
+
+            <!-- add rss icon-->
+            <a href="index.xml" style="color:black">                                                <i class="fa fa-rss-square" style="font-size:36px;"></i></a>
+            <a href="https://twitter.com/{{ $.Site.Params.twitter }}" style="color:black">          <i class="fa fa-twitter" style="font-size:36px"></i></a>
+            <a href="https://instagram.com/{{ $.Site.Params.instagram }}" style="color:black">      <i class="fa fa-instagram" style="font-size:36px"></i></a>
+            <a href="https://facebook.com/{{ $.Site.Params.facebook }}" style="color:black">        <i class="fa fa-facebook-f" style="font-size:36px"></i>
+            <a href="mailto:karaladergi@gmail.com" style="color:black">    						<i class="fa fa-envelope" style="font-size:36px"></i></a>
+            <a href="https://wa.me/905389321997" style="color:black">      <i class="fa fa-whatsapp" style="font-size:36px"></i></a>
+
+            <br>
+            <a href="https://goo.gl/maps/12rP9QvqrVuzaz837" style="color:black"><i class="fa fa-map" style="font-size:15px"></i>
+            Konur Sokak 53/10 Kızılay
+            </a>
+            <br><br>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{{ $recentposts := 5 }}
+{{ if .Params.recentposts }}
+{{ $recentposts = .Params.recentposts }}
+{{ end }}
+
+<div class="container">
+
+
+  <div class="row">
+ <div class="col-sm-6">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+  </ol>
+
+  
+
+
+
+
+  <div class="carousel-inner">
+
+    {{ range first 1 (where .Pages "Type" "posts") }}
+    <div class="carousel-item active" style="height: 470px;">
+
+    {{ if .Params.image }}
+ <img class="d-block w-100" src="{{ .Params.image }}" alt="{{ .Title }} slide" style="max-width: 100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;"/>
+ {{ else }}
+ <img class="d-block w-100" src="https://anarcho-copy.org/img/resim/black.jpeg" alt="{{ .Title }} slide" style="max-width: 100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;"/>
+ {{ end }} <!-- burası sayfadan resim alır/   -->
+
+<div class="carousel-caption">
+  <a href="{{ .URL | relURL}}" style="color: white;"><h5 style="background-color:rgba(0, 0, 0, 0.5);">{{ .Title | markdownify}}</h5></a>
+</div>
+
+</div>
+{{ end }}
+
+
+
+{{ range first 10 (after 1 (where .Pages "Type" "posts" )) }}
+<div class="carousel-item" style="height: 470px;">
+
+    {{ if .Params.image }}
+    <img class="d-block w-100" src="{{ .Params.image }}" alt="{{ .Title }} slide" style="max-width: 100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;"/>
+    {{ else }}
+    <img class="d-block w-100" src="https://anarcho-copy.org/img/resim/black.jpeg" alt="{{ .Title }} slide" style="max-width: 100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;"/>
+    {{ end }} <!-- burası sayfadan resim alır/   -->
+
+<div class="carousel-caption">
+  <a href="{{ .URL | relURL}}" style="color: white"><h5 style="background-color:rgba(0, 0, 0, 0.5);">{{ .Title | markdownify}}</h5></a>
+</div>
+
+</div>
+{{ end }}
+
+</div>
+
+<br />
+<br />
+
+
+
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">önceki</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">sonraki</span>
+</a>
+</div>
+</div>
+
+
+
+
+ <div class="col-sm-6"> 
+<div class="h-100 row align-items-center">
+<div class="col">
+ {{ range first 1 (where .Pages "Type" "kara-kose") }}
+
+
+<a href="{{ .URL | relURL}}" class="custom-card" style="text-decoration: none;">
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    
+    <div class="col-md-4">
+      <br />
+      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" class="card-img" style="padding-top: 0px;padding-bottom: 15px;padding-left: 5px;padding-right: 5px;"/>{{ end }}
+    </div>
+    <div class="col-md-8">
+      
+      <div class="card-body">
+        <h5 class="card-title">{{ .Title }} <span class="badge badge-dark">kara köşe</span></h5>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+{{ end }}
+
+
+
+{{ range first 1 (after 1 (where .Pages "Type" "kara-kose" )) }}
+<a href="{{ .URL | relURL}}" class="custom-card d-none d-sm-block" style="text-decoration: none;">
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <br />
+      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" class="card-img" style="padding-top: 0px;padding-bottom: 15px;padding-left: 5px;padding-right: 5px;"/>{{ end }}
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ .Title }} <span class="badge badge-dark">kara köşe</h5>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+{{ end }}
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<br />
+
+
+  {{ $recentposts := 5 }}
+  {{ if .Params.recentposts }}
+    {{ $recentposts = .Params.recentposts }}
+  {{ end }}
+
+<br /> 
+
+  <h1 class="text-center text-white">Son Yazılanlar</h1>
+
+<br />
+<br/>
+
+
+
+{{ range first 10 (where .Data.Pages "Section" "in" (slice "eylemlerimiz" "posts")) }}
+
+
+<div class="jumbotron">
+
+{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" style="height: auto;padding-left: 0px;padding-right: 0px;" class="col-md-4"/>{{ end }} 
+<!-- burası sayfadan resim alır/   -->
+
+
+    <h2 class="mt-5"><a class="text-body" href="{{ .URL | relURL}}">{{ .Title | markdownify}}</a></h2>
+    {{ if .Params.Subtitle }}
+      <h3 class="font-weight-light font-italic mb-3">{{ .Params.Subtitle | markdownify }}</h2>
+    {{ end }}
+
+    <p class="text-muted mt-3">
+      <a class="text-muted" href="{{ .Permalink }}">Yayınlanma 	&nbsp;<i class="fa fa-calendar"></i> {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</a>
+	<br />
+      	{{ if .Params.tags }}<i class="fa fa-tags"></i>{{ end }} {{ range .Params.tags }}
+        <a class="text-muted" href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+      {{ end }}
+    
+<br />
+        {{ if .Params.categories }}{{ if .Params.categories }} <i class="fa fa-folder-open"></i> {{ end }} {{ end }} {{ range .Params.categories }}
+        <a class="text-muted" href="{{ "/categories/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+      {{ end }}
+    </p>
+
+
+
+
+    <article class="article">
+      <p style="max-width: 70em;font-size: 1em;">{{ .Summary }}</p>
+    </article>
+
+    <p class="text-muted">Okuma süresi: {{ .ReadingTime }} dakika <i class="fa fa-hourglass-1"></i> </p>
+    <p><a class="btn btn-primary bg-dark text-light" href="{{ .URL | relURL }}">Daha fazla oku...</a></p>
+</div>
+  {{ end }}
+
+
+
+<br />
+<br />
+
+  <div class="card">
+  <div class="card-body">
+     <h5>Daha Fazla | <a href="/posts/">Yazılar</a> | <a href="/eylemlerimiz/">Eylemlerimiz</a> | </h5>
+  </div>
+</div>
+
+
+</div>
+
+
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+
+{{ end }}
+
+
