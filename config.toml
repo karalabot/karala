@@ -16,14 +16,14 @@ relativeURLs = true
  [[menu.main]]
     identifier = "admin"
     name = "Giriş Yap"
-    url = "https://app.forestry.io/sites/djp4eawewz-otq/#/sections/posts/content/posts"
+    url = "https://app.forestry.io/sites/snp4o-4iwuufcg/#/sections/posts/content/posts"
     weight = 100
 
   [[menu.main]]
     identifier = "orgutlen"
     name = "Örgütlen"
     url = "/orgutlen/"
-    weight = 100
+    weight = 120
 
 #  [[menu.main]]
 #    identifier = "tags"
@@ -41,13 +41,13 @@ relativeURLs = true
     identifier = "eylemlerimiz"
     name = "Eylemlerimiz"
     url = "/eylemlerimiz/"
-    weight = 120
+    weight = 130
 
   [[menu.main]]
     identifier = "kara-kose"
     name = "Kara Köşe"
     url = "/kara-kose/"
-    weight = 130
+    weight = 140
 
 
 
@@ -55,7 +55,7 @@ relativeURLs = true
     identifier = "categories"
     name = "Dergi"
     url = "/categories/"
-    weight = 100
+    weight = 150
 
 
 
