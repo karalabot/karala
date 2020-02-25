@@ -1,7 +1,7 @@
 +++
 categories = []
-date = 2020-02-24T04:00:00Z
-image = "/images/uploads/20200225_192649-2020-02-25.png"
+date = 2020-02-25T04:00:00Z
+image = "/images/uploads/20200225_192649-2020-02-25-1.png"
 tags = []
 title = "Almanya'da Gericilik - Bakunin  ( Pdf )"
 
