@@ -11,3 +11,5 @@ fields:
 - type: datetime
   name: date
   label: date
+pages:
+- content/eylemlerimiz/emma-goldman-savaş-karşıtlığı-ve-militarizm-düşüncesini-tartışıyoruz.md
