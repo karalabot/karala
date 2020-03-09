@@ -1,5 +1,5 @@
 +++
-date = ""
+date = 2020-03-09T16:00:00Z
 image = "/images/uploads/emma-2020-03-09.jpg"
 title = "Emma Goldman - Savaş Karşıtlığı ve Militarizm Düşüncesini Tartışıyoruz "
 
