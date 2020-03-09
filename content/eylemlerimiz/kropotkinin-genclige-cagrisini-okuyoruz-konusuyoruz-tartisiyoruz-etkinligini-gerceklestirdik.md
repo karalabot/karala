@@ -3,6 +3,7 @@ image: "/images/uploads/4.jpg"
 title: '"Kropotkin''in Gençliğe Çağrısını Okuyoruz, Konuşuyoruz, Tartışıyoruz" Etkinliğini
   Gerçekleştirdik.'
 date: 2019-12-05T08:39:57.637+00:00
+draft: true
 
 ---
 Coğrafya, evrim, biyoloji ve etik gibi alanlardaki bilimsel çalışmalarının yanı sıra devrimci anarşist perspektifiyle ortaya koyduğu önemli ekonomik ve siyasi teorilerini paylaştığımız Kropotkin'in Gençliğe Çağrı metninden hareketle gençlik mücadelesini konuştuk.
