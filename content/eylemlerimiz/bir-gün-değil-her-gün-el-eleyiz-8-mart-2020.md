@@ -1,6 +1,5 @@
 +++
 date = 2020-03-07T21:00:00Z
-draft = true
 image = "/images/uploads/IMG_20200317_125934-2020-03-17.jpg"
 title = "Bir Gün Değil Her Gün El Eleyiz - 8 Mart 2020"
 
