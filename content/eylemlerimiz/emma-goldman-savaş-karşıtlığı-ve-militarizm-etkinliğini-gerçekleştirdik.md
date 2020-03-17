@@ -1,6 +1,5 @@
 +++
 date = 2020-03-14T21:00:00Z
-draft = true
 image = "/images/uploads/1-2020-03-17.jpg"
 title = "Emma Goldman - Savaş Karşıtlığı ve Militarizm Etkinliğini Gerçekleştirdik"
 
