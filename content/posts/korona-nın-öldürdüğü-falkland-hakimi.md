@@ -46,4 +46,4 @@ Temel ihtiyaçlara inanılmaz zamlar yapan ya da işçileri ücretsiz izne çık
 
 Paylaşma ve dayanışma değildir Korona’nın öldürdüğü. Yaşamlarımızı birbirimize kapatmak, bencilleşmek, komşumuzu unutmak, kapımızı örtmek değildir Korona’dan payımıza düşen. Paylaşma ve dayanışmayı artırmak ve kendimize değil, birbirimize sahip çıkmayı unutmamaktır bizim elimizde olan anahtar. Bu anahtar, Korona’nın da, kapitalizmin de, iktidarın da kilidini çözecek güce sahiptir.
 
-\-Falkland Hakimi
+Yazıyı gönderen okurumuz : Falkland Hakimi
