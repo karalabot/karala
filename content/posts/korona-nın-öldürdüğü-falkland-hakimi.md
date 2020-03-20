@@ -1,0 +1,50 @@
++++
+categories = []
+date = 2020-03-19T21:00:00Z
+draft = true
+image = "/images/uploads/ap_coronavirus advisory update 3.9_rs-2020-03-20.jpg"
+tags = []
+title = "Korona'nın Öldürdüğü - Falkland Hakimi"
+
++++
+İtalya’da doktorların 80 yaş üstü hastaları tedavi etmemesine dair karar alındığı ve doktorların bu kararın altında ezildiklerine dair bir haber okuduğumda bu yazıyı yazmaya zorunlu hissettim kendimi. Yoğun bakıma alınan hastalar arasından daha genç olanların kurtulma ihtimalinin daha yüksek olduğunu düşünerek tek atım kalan barutlarını bu yönde kullanmak zorunda kalan doktorların sürekli olarak vicdan muhasebesi içinde olmaları çok ağır bir yük. Bu yükü 10 Ekim’de ambulansa götürülecek hastalar arasında tercihte bulunma şanssızlığını yaşamış birisi olarak gayet içeriden bilmek bu konudaki empatimin ana sebebi.
+
+Hayatımıza bir kabus gibi çöken virüse dair onlarca gerekçe sayılabilir. Doğanın bozduğumuz dengesi, şehirlere sıkıştırılmış hayatlar, kapitalizmin kar odaklı toplumsal dizaynı... Sebep bunların her biri ve hatta hepsi. Ancak neden ne olursa olsun bugün yaşadığımız bu durumun nedenlerden daha elzem olan yanıtlara ihtiyacı var.
+
+Bu hastalık durumu ile yaşamanın getirdiği sorumluluk ve yarattığı ruh hali ise kendimce müdahaleye muhtaç. Nasıl olmasın ki… Gerek iktidarda olanların mecburiyeti, gerek virüsün yayılmasında sınıfsal fark gözetmeden herkesi etkiliyor oluşu ya da uluslararası kuruluşlardan gelebilecek mali yardımlar... Her ne sebeple olursa olsun yönetenlerce alınan bir dizi önlem ve bu önlemleri büyük bir saygı ve korkuyla takip eden insanlar. İlk defa bir bakanı tebrik ediyorum, yaptığı iş gerçekten önemli ve şeffaf diyerek herkes gibi olan muhaliflerin sayısı ne yazık ki düşündüğümüzden daha yüksek.
+
+İnsanların kendilerinin ve yakın çevresindekilerin hayatlarını düşünerek bu kararlara uymaya çalışması anlaşılabilir bir durum. Benim itirazımsa bu ruh halinin, ipleri atalı çok uzun zaman olmuş olsa dahi kendini bir şekilde iktidarın karşısında konumlandıranlar açısından ancak yüzeysel eleştirilere konu olabiliyor olması.
+
+Otorite ve iktidar bir yaşam tarzıdır. İçinde doğal durumu reddeden, suni ve zoraki bir fiili durum vardır. Teslim aldığı ve devamlılığını sağladığı şey ise insanların ruhudur. O ruh teslim edildikten sonra belki nefes alınıp verilir ancak yaşam var denilemez. Virüs belli ki ölümcüldür ve hepimiz için tehdittir ama şunu biliriz ki kaçınılmaz sonu yaşatacak olsa da, ruhumuzu teslim edip etmemek konusunda hala şansımız kendi ellerimizdedir.
+
+İktidarın hayatlarımızla ilgili aldığı kararları alkışlamak, kapatılan okulları, toplu yan yana geliş pratiklerinin engellenmesini hayırlı bulmak konuya dair eksik bakışımızı kapatamaz. Okulların kapatılmasını talep etmek, işyerinin kapatılmasını beklemek, hatta birkaç adım ileri çıkıp sokağa çıkma yasaklarını, Olağanüstü Hal uygulamasını talep etmek aslında aynı şeydir. Aynılıkları, yaşam irademizi kendisine katılmadığımızı aleni şekilde beyan ettiğimiz devlete teslim etmektir.
+
+Kahrolası güçsüzlüğümüz bir ruh haline dönüşmüş durumda. Bu ruh hali o kadar büyüdü ki, eskiden eleştirebildiğimiz şeyler şimdi hayatımızın rutini haline dönüşmüş ve normalleşmiş, alternatif yaratmaya dair hiçbir çabamızın olmaması ise sorun olarak bile algılanamaz hale gelmiş durumda. Kıyıda köşede esprilere boğularak, “aslında gerçekler saklanıyor” diyerek basit muhalefetten hallice eleştirilerde bulunmak yapabildiğimiz tek iş oldu. Herkesle beraber marketleri Hollywoodvari boşaltmamızı saymıyorum bile. Organik ya da vegan dezenfektan tarifleri ile doğayla barışık korunma arayışlarımız ise takdire şayan yaklaşımlar. Elbet ilerleyen senelerde çocuklarımız toplumsal mücadeleler tarihinde bu ürünlerden övgüyle bahsedeceklerdir.
+
+Öncelikli olarak bu tür felaket dönemlerinin bizlerde bırakacağı ilk elden etki, kısa zaman öncesine kadar şiddetle eleştirdiğimiz bir yalanın göz göre göre gerçeğe dönüşmesi. “Aynı Gemideyiz” yalanı şu anda büyük bir çoğunluğumuz için gerçeğe dönüşmüş durumda. İki ayrı sınıf olduklarımızla, iki ayrı hayatı yaşadıklarımızla aramızdaki fark ne yazık ki bir virüs kadarmış.
+
+En radikal düşünebilenlerimiz olayların yakıcılığı ile marketlerde boşalan raflardaki makarnaların yoksulların en rahat ulaşabildiği gıda olduğu gerçeğini vurgulayabildi. Zengin muhitlerdeki marketlerde boşalan raflar, kolonya ve makarna değildi neticede. Bu sınıfsal farklılıkları vurgulayabilmek yeter bir şey olarak kaldı. Üretimi kısıtlanan ya da geçici süre ile kapatılan işyerlerinde işçilerin ücretsiz izne çıkarılması, buna itiraz edenlerin işten atılması tabii ki sorun ve buna karşı çıkılmalı. Ancak sorunu sadece bu minvalde ele almak esasa dair tek bir kelam etmeden suya sabuna dokunup geçmek demek.
+
+Kapatılan onca işyerine rağmen kapatılmayan ya da kapatılması en sona bırakılan AVM’ler, marketlerde çalışan ve iş güvencesinin yanında can güvencesi de artık risk altında olan işçilerin geleceği tabii ki sorun. Ancak devlet ile aramıza koyamadığımız sınır, bu vaka atlatılsa dahi sürekli tekerrür edecek daha büyük bir sorunlar yumağının birinci halkası. Tabii ki kapitalizm her krizin yükünü işçilere ödetecek, devlet aldığı önlemleri zenginleri korumak üzere alacak, kapattığı iş yerinin çalışanlarının gerek kendine gerek bankalara olan borcunu silmeyecek. Bunları hali hazırdaki gibi talep ederek aynı gemide olanların birbirini yormasına gerek yok. Bu kerhen de olsa, iyi niyetle de olsa devletten bir şeyler bekleyenlerin nafile gürültüsü olarak kalacak. Bu bir krizdir evet ve her kriz gibi faturanın kime kesileceği bellidir. Hele de daha işin başında bıçağa boynunu uzatan kurbanlık rolüne kendini kaptıran bu kadar çok muhalif varken.
+
+Durumu en iyi özetleyen şey, tüm dünyayı kasıp kavuran hastalık hikayesi bu kadar aşinayken devlete ne kadar güveneceği konusunda kafası hep net olanlarımız dahi market ziyareti için bir bakanın gece yarısı yaptığı açıklamayı bekleyip, hastalığın yaşadığımız topraklara geldiğine ancak bu açıklama ile kani olması oldu. Devletle ilişkisini bu kadar kesebilmiş olanlarımızla kuracağımız devletsiz toplum düşünün bu kadar kırılgan olduğunu görmek virüsten çok daha tehlikeli.
+
+“Eleştirinin silahı” ne yazık ki yetersiz. Siyasi miyopluğumuzu tescil etmekten öteye geçemiyor. Alkollü mekanların kapatılmasına dair alınan özel kararın diğer “önlem”lerden ayrı ve önce verilmiş olması, camilerde yapılan toplu ibadetlerin durdurulduğu kararının bir bakan tarafından değil de, diyanet işleri başkanı tarafından duyurulması ve bu kararın cumhurbaşkanı onayı ile alındığının beyan edilmesi, şu ana kadar yapabildiğimiz eleştirinin sınırlarını belirlememiz için bize verilmiş malzemeler. Bizi cambaza baktırırken asıl görmemiz gerekeni tamamen unutturuyor.
+
+Boynumuzu uzattığımız bıçağın sahiplerine bu günümüzü teslim etmiyoruz sadece. Düşlerimizi ve yarına dair tahayyüllerimizi de teslim ediyoruz. Can korkusu düşlerimizden daha değerli olamaz, olmamalı.
+
+Büyük bir şiddetle talep edilen sokağa çıkma yasağı, Ohal gibi taleplerin dönemin hassasiyeti gibi bir mantıkla açıklanabilir olma durumu söz konusu değildir. Her dönemde her dönemin gereksinimleri her sınıf için farklı olacaktır. İktidarı elinde bulunduran sınıfın ihtiyaçları belirlemesi de gayet doğaldır. Doğal olmayan ise güçten yoksun olanların yaşam iradelerini bile isteye iktidara devretmesidir.
+
+Asıl olarak çaresizliğin ve güvencesizliğin oluşturduğu ruh hali bu ana değil belki ama kısa ve orta vadeli dönemde yönetenlere “allahın lütfu” olarak ciddi bir hegemonya kabiliyeti kazandıracaktır. Bize düşen görev ise basit bir tercihte bulunmak; şu an biz mi, yarın hepimiz mi?
+
+Anlatmak istediğim şey süreci değersiz ve basit görüp önlem almamak değil. Yaşananların ciddi olduğu ve virüs sınıfsal farklılıkları gözetmese de, temel yaşam gereksinimlerine ulaşmakta zorluk yaşayan yoksulların, emekçilerin yani bizlerin risk altında olduğu ortada. Bilimsel yaklaşımların gerekli gördüğü izolasyonu sağlamaya çalışırken ideolojik hegemonyanın getirdiği bencil ve asosyal bir hayat tercihi ve dayanışma bağlarının hepten koparılması ile karşı karşıyayız. Virüsün gerektirdiği fiziksel izolasyon iken, kapitalizmin dayattığı toplumsal izolasyon ile, bencillikle karşı karşıyayız.
+
+İçinde bulunulan tecrit hissiyatı insanları, yaygın bir anksiyete ve obsesyona sürüklerken süreç hızla duyarsızlaşmaya doğru yol almakta. Sigara paketleri üzerindeki “ürkütücü” yazıların artık sıradanlaşması gibi virüsten kaynaklı ölümlerin sıradanlaşması ve insan yerine sayılardan bahsedilen dönemin kapısındayız.
+
+Dayanışma bağlarının güçlendirilmesi, en azından “bizler“ arasındaki ekonomik eşitsizliklerin bizler tarafından bertaraf edilmesi, özellikle kadınların yaşayabileceği ev içi şiddete karşı farkındalığın arttırılması ve her şeyden öte ezilenlerin ezenlerle aynı gemide olmadığının sürekli tekrarının yapılması, işçilerin gerek ulaşım esnasında gerek iş dönemi boyunca yaşayabilecekleri risklere karşı yapacakları eylemlilikleri desteklemek gibi ilk elden yapılabilecekler çeşitlendirilerek yaygınlaştırılmalıdır.
+
+Temel ihtiyaçlara inanılmaz zamlar yapan ya da işçileri ücretsiz izne çıkmaya zorlayan ve işten atanların, yarın boykot edilmesi adına çetelesinin tutulması ve teşhiri bile kapandığımız evlerimizden yapabileceklerimizdendir.
+
+Paylaşma ve dayanışma değildir Korona’nın öldürdüğü. Yaşamlarımızı birbirimize kapatmak, bencilleşmek, komşumuzu unutmak, kapımızı örtmek değildir Korona’dan payımıza düşen. Paylaşma ve dayanışmayı artırmak ve kendimize değil, birbirimize sahip çıkmayı unutmamaktır bizim elimizde olan anahtar. Bu anahtar, Korona’nın da, kapitalizmin de, iktidarın da kilidini çözecek güce sahiptir.
+
+\-Falkland Hakimi
