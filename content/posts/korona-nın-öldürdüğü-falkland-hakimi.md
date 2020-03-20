@@ -6,8 +6,7 @@ tags = []
 title = "Korona'nın Öldürdüğü - Falkland Hakimi"
 
 +++
-
-İtalya’da doktorların 80 yaş üstü hastaları tedavi etmemesine dair karar alındığı ve doktorların bu kararın altında ezildiklerine dair bir haber okuduğumda bu yazıyı yazmaya zorunlu hissettim kendimi. Yoğun bakıma alınan hastalar arasından daha genç olanların kurtulma ihtimalinin daha yüksek olduğunu düşünerek tek atım kalan barutlarını bu yönde kullanmak zorunda kalan doktorların sürekli olarak vicdan muhasebesi içinde olmaları çok ağır bir yük. Bu yükü 10 Ekim’de ambulansa götürülecek hastalar arasında tercihte bulunma şanssızlığını yaşamış birisi olarak gayet içeriden bilmek bu konudaki empatimin ana sebebi.
+İtalya’da doktorların 80 yaş üstü hastaları tedavi etmemesine dair karar alındığı ve doktorların bu kararın altında ezildiklerine dair bir haber okuduğumda bu yazıyı yazmaya zorunlu hissettim kendimi. Yoğun bakıma alınan hastalar arasından daha genç olanların kurtulma ihtimalinin daha yüksek olduğunu düşünerek tek atım kalan barutlarını bu yönde kullanmak zorunda kalan doktorların sürekli olarak vicdan muhasebesi içinde olmaları çok ağır bir yük. Bu yükü 10 Ekim’de ambulansa götürülecek hastalar arasında tercihte bulunma şanssızlığını yaşamış birisi olarak gayet içeriden bilmek bu konudaki empatimin ana sebebi.  
 
 Hayatımıza bir kabus gibi çöken virüse dair onlarca gerekçe sayılabilir. Doğanın bozduğumuz dengesi, şehirlere sıkıştırılmış hayatlar, kapitalizmin kar odaklı toplumsal dizaynı... Sebep bunların her biri ve hatta hepsi. Ancak neden ne olursa olsun bugün yaşadığımız bu durumun nedenlerden daha elzem olan yanıtlara ihtiyacı var.
 
