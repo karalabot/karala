@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2020-03-19T21:00:00Z
-draft = true
 image = "/images/uploads/ap_coronavirus advisory update 3.9_rs-2020-03-20.jpg"
 tags = []
 title = "Korona'nın Öldürdüğü - Falkland Hakimi"
