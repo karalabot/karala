@@ -1,5 +1,11 @@
 ---
 title: 'Yazı Önerileri 1 : İktidar ve Sovyet'
+image: "/images/uploads/WhatsApp Image 2020-04-09 at 20.12.42-2020-04-09.jpeg"
+date: 2020-04-08T20:00:00+03:00
+tags:
+- sovyet ve iktidar, bolşevik katliamları, toplumsal devrim nedir, devletleşme ve
+  katliamlar, ekim devrimi eleştirisi, mahnovist hareket, kronştad
+categories: []
 
 ---
 **_İktidar sovyetlere aitse, o zaman Bolşevik Parti’ye ait olamazdı; ve eğer Bolşeviklerin tasavvur ettiği gibi partiye aitse, o zaman sovyetlere ait olamazdı._**

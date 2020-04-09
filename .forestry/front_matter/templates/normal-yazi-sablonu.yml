@@ -18,5 +18,6 @@ fields:
   name: tags
   label: tags
 pages:
+- content/posts/_index.md
 - content/posts/almanya-da-gericilik-bakunin-pdf.md
 - content/posts/korona-nın-öldürdüğü-falkland-hakimi.md
