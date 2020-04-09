@@ -2,8 +2,6 @@
 title: 'Yazı Önerileri 1 : İktidar ve Sovyet'
 
 ---
-![](/images/uploads/WhatsApp Image 2020-04-09 at 20.12.42-2020-04-09.jpeg)
-
 **_İktidar sovyetlere aitse, o zaman Bolşevik Parti’ye ait olamazdı; ve eğer Bolşeviklerin tasavvur ettiği gibi partiye aitse, o zaman sovyetlere ait olamazdı._**
 
 **_V. M. Eikhenbaum (Volin)_**
