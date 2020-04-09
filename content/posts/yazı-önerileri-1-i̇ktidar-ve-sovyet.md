@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2020-04-08T17:00:00Z
-draft = true
 image = "/images/uploads/WhatsApp Image 2020-04-09 at 20.12.42-2020-04-09.jpeg"
 tags = ["sovyet ve iktidar, bolşevik katliamları, toplumsal devrim nedir, devletleşme ve katliamlar, ekim devrimi eleştirisi, mahnovist hareket, kronştad"]
 title = "Yazı Önerileri 1 : İktidar ve Sovyet"
