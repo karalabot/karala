@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2020-04-09T21:00:00Z
-draft = true
 image = "/images/uploads/WhatsApp Image 2020-04-10 at 17.53.18-2020-04-10.jpeg"
 tags = []
 title = "Yazı Önerileri 2 : Salgın? İtalya'da Devlet Katliamı"
