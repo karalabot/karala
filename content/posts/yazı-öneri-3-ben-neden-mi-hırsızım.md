@@ -1,7 +1,6 @@
 +++
 categories = []
-date = ""
-draft = true
+date = 2020-04-18T21:00:00Z
 image = "/images/uploads/20200419_154337_0000-2020-04-19.png"
 tags = []
 title = "Yazı Öneri 3 : Ben Neden mi Hırsızım?"
