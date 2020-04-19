@@ -3,7 +3,7 @@ categories = []
 date = 2020-04-18T21:00:00Z
 image = "/images/uploads/20200419_154337_0000-2020-04-19.png"
 tags = []
-title = "Yazı Öneri 3 : Ben Neden mi Hırsızım?"
+title = "Yazı Önerileri 3 : Ben Neden mi Hırsızım?"
 
 +++
 > Eğer ortada bir hırsızlık varsa, her şey yalnızca bazı insanlara ait olduğu içindir; bir tarafta bolluk, diğer tarafta yokluk vardır.
