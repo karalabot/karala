@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2020-04-28T21:00:00Z
-draft = true
 image = "/images/uploads/haymarket-2020-04-29.jpeg"
 tags = []
 title = "Yazı Önerileri 4: 1 Mayıs’ın Tarihi:1886’da Haymarket’te Alevlenen Kıvılcım"
