@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2020-05-03T21:00:00Z
-draft = true
 image = "/images/uploads/20200504_123000_0000-2020-05-04.png"
 tags = []
 title = "Yazı Önerileri 5: Basit Bir Marksizm Eleştirisi - Marksizm'in Update'i"
