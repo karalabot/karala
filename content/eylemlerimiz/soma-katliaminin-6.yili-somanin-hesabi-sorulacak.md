@@ -1,6 +1,5 @@
 +++
 date = 2020-05-13T17:00:00Z
-draft = true
 image = "/images/uploads/whatsapp-image-2020-05-14-at-20.06.09-2020-05-14.jpeg"
 title = "Soma Katliamının 6.Yılı:Somanın Hesabı Sorulacak"
 
