@@ -1,19 +1,19 @@
 ---
-image: /images/uploads/mijail_bakunin.jpg
-title: "İktidar Karşısında Bir Dev:\_Bakunin"
-date: 2018-10-30T09:00:19.000Z
+image: "/images/uploads/mijail_bakunin.jpg"
+title: İktidar Karşısında Bir Dev: Bakunin
+date: 2018-10-30T09:00:19.000+00:00
 categories:
-  - Karala Dergi
-  - sayı 1
+- Karala Dergi
+- sayı 1
 tags:
-  - Anarşizm
-  - Bakunin
-  - Enternasyonal
-  - isyan
-  - özgürlük
-  - Uluslararası Kardeşlik İttifakı
----
+- Anarşizm
+- Bakunin
+- Enternasyonal
+- isyan
+- özgürlük
+- Uluslararası Kardeşlik İttifakı
 
+---
 Bir devrimci anarşistin hayatı nasıl anlatılır? Doğumu, yaşayışı ve ölümü üzerine kurulu bir şablondan değil elbette. Özgürlük, eğer düşündüğünü eyleyebilmekse; devrimci bir anarşisti anlatırken düşünceleri önemli bir yerde durur. Çünkü o, düşüncelerini içinde bulunduğu anda gerçekleştirebilmenin çabası içerisindedir.
 
 Söz konusu anarşist Bakunin ise, yaşamı üzerine bir şeyler yazabilmek daha da zordur. Üzerinde dikkatli çalışmayı gerektirir. Yazdıklarının ve eylediklerinin nelere yol açtığı, sadece içinde bulunduğu zamandan anlaşılmaz. Öngörülerinin haklılığı sonraki yüzyıllarda da kendini göstermiştir.
@@ -46,6 +46,4 @@ _“Komünizm teoriden değil, pratik içgüdüden türer.”_
 
 Düşünce ve eylem arasındaki dengeli bir uyumdur Bakunin’in yaşamı. Nasıl ki, anarşizm sadece bir kuram ve düşünceler bütünü değilse; düşüncelerin inşasına dayanan bir eylem ve hareketse, Bakunin de anarşizmin bu özelliğini kendisine ilke edinmiştir. Bir yandan düşüncelerini dünyanın farklı yerlerindeki özgürlük mücadeleleriyle şekillendirmiş, bir yandan da anarşist ideolojinin somutlanması için Jura Federasyonu’ndan Floransa Kardeşliği’ne özörgütlülükler oluşturmuştur.
 
-Bakunin, yaşamını özgürlüğün önünde dikilen her iktidarı yıkmaya adamış devrimci bir anarşist. Yaşamın yaratıcı kaynağı olduğu için yıkıcı tutkusunu dizginlemeden...
-
-
+Bakunin, yaşamını özgürlüğün önünde dikilen her iktidarı yıkmaya adamış devrimci bir anarşist. Yaşamın yaratıcı kaynağı olduğu için yıkıcı tutkusunu dizginlemeden.. 
