@@ -1,5 +1,5 @@
 +++
-date = 2020-05-31T21:00:00Z
+date = 2020-06-01T21:00:00Z
 image = "/images/uploads/img-20200602-wa0010-2020-06-02.jpg"
 title = "Gezi Direnişi'nin 7.Yılı: Ethemin Hesabı Sorulacak!"
 
