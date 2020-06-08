@@ -1,5 +1,5 @@
 +++
-date = ""
+date = 2020-06-07T21:00:00Z
 image = "/images/uploads/whatsapp-image-2020-06-08-at-13-50-49-2020-06-08.jpeg"
 title = "Baskılar Sökmeyecek Gençlik Kazanacak"
 
