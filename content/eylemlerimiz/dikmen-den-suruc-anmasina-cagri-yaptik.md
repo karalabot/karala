@@ -1,6 +1,5 @@
 +++
 date = 2020-07-05T21:00:00Z
-draft = true
 image = "/images/uploads/1-2020-07-06.jpg"
 title = "Dikmen'den Suruç Anmasına Çağrı Yaptık"
 
