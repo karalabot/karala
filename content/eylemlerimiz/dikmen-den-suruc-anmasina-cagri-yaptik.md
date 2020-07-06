@@ -10,6 +10,4 @@ Gençlik Örgütleri olarak Suruç Katliamı'nın 5.yılında; 33 yoldaşımız�
 
 ![](/images/uploads/3-2020-07-06.jpg)
 
-Video:
-
-    https://twitter.com/karaladergi/status/1279813370410160128
+[**Bildiri Videosu İçin Tıklayınız:**](https://twitter.com/karaladergi/status/1279813370410160128) 
