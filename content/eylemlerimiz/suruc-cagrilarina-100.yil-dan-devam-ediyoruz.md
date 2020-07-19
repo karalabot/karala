@@ -1,6 +1,5 @@
 +++
 date = 2020-07-08T21:00:00Z
-draft = true
 image = "/images/uploads/100-yil-2020-07-19.jpg"
 title = "Suruç Çağrılarına 100. Yıl'dan Devam Ediyoruz"
 
