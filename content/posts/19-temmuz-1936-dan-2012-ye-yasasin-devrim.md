@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2020-07-18T21:00:00Z
-draft = true
 image = "/images/uploads/devrim-2020-07-19.jpeg"
 tags = []
 title = "19 Temmuz 1936’dan 2012’ye Yaşasın Devrim!"
