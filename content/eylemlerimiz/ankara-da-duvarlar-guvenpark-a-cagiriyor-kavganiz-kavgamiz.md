@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2020-07-17T21:00:00Z
-draft = true
 image = "/images/uploads/seyran-2020-07-19.jpg"
 tags = []
 title = "Ankara'da Duvarlar Güvenpark'a Çağırıyor: Kavganız Kavgamız!"
