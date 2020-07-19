@@ -1,6 +1,5 @@
 +++
 date = 2020-07-16T21:00:00Z
-draft = true
 image = "/images/uploads/mamak-2020-07-19.jpg"
 title = "Mamak'tan Sesleniyoruz: Suruç'un Hesabı Sorulacak!"
 
