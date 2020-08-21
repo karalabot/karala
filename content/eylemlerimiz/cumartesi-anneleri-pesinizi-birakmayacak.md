@@ -1,6 +1,5 @@
 +++
 date = 2020-07-24T21:00:00Z
-draft = true
 image = "/images/uploads/cm1-2020-08-21.jpg"
 title = "Cumartesi Anneleri Peşinizi Bırakmayacak!"
 
