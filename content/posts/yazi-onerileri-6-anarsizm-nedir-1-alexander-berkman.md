@@ -1,8 +1,7 @@
 +++
 categories = []
 date = 2020-08-28T21:00:00Z
-draft = true
-image = ""
+image = "/images/uploads/whatsapp-image-2020-08-29-at-12-20-08-2020-08-29.jpeg"
 tags = []
 title = "Yazı Önerileri 6: Anarşizm Nedir? (1) – Alexander Berkman"
 
