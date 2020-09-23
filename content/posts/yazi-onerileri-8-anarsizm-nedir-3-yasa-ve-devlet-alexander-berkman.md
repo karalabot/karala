@@ -1,8 +1,7 @@
 +++
 categories = []
 date = 2020-09-22T21:00:00Z
-draft = true
-image = ""
+image = "/images/uploads/yasa-ve-devlet-2020-09-23.jpg"
 tags = []
 title = "Yazı Önerileri 8: Anarşizm Nedir? (3): Yasa ve Devlet – Alexander Berkman"
 
