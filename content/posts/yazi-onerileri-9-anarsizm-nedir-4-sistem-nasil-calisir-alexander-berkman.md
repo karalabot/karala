@@ -1,6 +1,6 @@
 +++
 categories = []
-date = 2020-09-22T21:00:00Z
+date = 2020-09-22T21:30:00Z
 draft = true
 image = "/images/uploads/sistem-2020-09-23.jpg"
 tags = []
