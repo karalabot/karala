@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2020-09-22T21:40:00Z
-draft = true
 image = "/images/uploads/issizlik-2020-09-23.jpg"
 tags = []
 title = "Yazı Önerileri 10: Anarşizm Nedir? (5): İşsizlik – Alexander Berkman"
