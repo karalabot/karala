@@ -1,10 +1,10 @@
 +++
 categories = []
-date = 2020-09-22T21:00:00Z
+date = 2020-09-22T21:40:00Z
 draft = true
-image = ""
+image = "/images/uploads/issizlik-2020-09-23.jpg"
 tags = []
-title = "Yazı Önerileri 9: Anarşizm Nedir? (5): İşsizlik – Alexander Berkman"
+title = "Yazı Önerileri 10: Anarşizm Nedir? (5): İşsizlik – Alexander Berkman"
 
 +++
 **_Yaşamı boyunca anarşizm için mücadele eden devrimci anarşist Alexander Berkman tarafından 1928’de yazılan, daha önce farklı dillerde “Anarşizm Nedir?, Anarşizmin ABC’si, Anarşist Komünizm Nedir?” isimleriyle yayınlanmış ve bugüne dek Türkçe çevirisi yapılmamış olan kitabın 5. bölümünü sizlerle paylaşıyoruz._** 
