@@ -2,7 +2,7 @@
 categories = []
 date = 2020-09-22T21:00:00Z
 draft = true
-image = ""
+image = "/images/uploads/sistem-2020-09-23.jpg"
 tags = []
 title = "Yazı Önerileri 9: Anarşizm Nedir? (4): Sistem Nasıl Çalışır – Alexander Berkman"
 
