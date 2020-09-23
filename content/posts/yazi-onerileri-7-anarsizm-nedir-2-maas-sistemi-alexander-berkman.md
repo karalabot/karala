@@ -2,7 +2,7 @@
 categories = []
 date = 2020-09-22T21:00:00Z
 draft = true
-image = ""
+image = "/images/uploads/maas-sistemi-2020-09-23.jpg"
 tags = []
 title = "Yazı Önerileri 7: Anarşizm Nedir? (2): Maaş Sistemi – Alexander Berkman"
 
