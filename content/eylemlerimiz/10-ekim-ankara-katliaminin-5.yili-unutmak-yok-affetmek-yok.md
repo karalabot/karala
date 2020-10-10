@@ -4,9 +4,7 @@ image = "/images/uploads/img-20201010-wa0156-2020-10-10.jpg"
 title = "10 Ekim Ankara Katliamının 5.Yılı  : 10 Ekimi Unutmak, Katilleri Affetmek Yok"
 
 +++
-10 Ekim'i Unutmak Katilleri Affetmek Yok!
-
-10 Ekim Ankara Katliamı'nın üzerinden 5 yıl geçti. Bizler, 5 yıl önce o meydanda bombalananlar, 5 üzüntüyü bileyenler, acıyı kavgaya dönüştürenler; bu sene de yürüdük o kanlı oluşur. Bu sene de katiller, katliamı sahiplenerek karşımıza çıktılar. Bu sene de kavgamız, katillerin suratında patladı.
+10 Ekim Ankara Katliamı'nın üzerinden 5 yıl geçti. Bizler, 5 yıl önce o meydanda bombalananlar, 5 yıldır üzüntüyü öfkeyle bileyenler, acıyı kavgaya dönüştürenler; bu sene de yürüdük o kanlı meydana. Bu sene de katiller, katliamı sahiplenerek karşımıza çıktılar. Bu sene de kavgamız, katillerin suratında patladı. 
 
 Günlerce Ankara sokaklarını 103 yoldaşımızın kavgasını büyüterek adımladık. Mamak'ta, Dikmen'de ve Sincan-Kayaş banliyö hattında yoldaşlarımızın kavgasını anlatan, yoldaşlarımızı anmaya çağıran bildirilerimizi dağıttık.
 
@@ -18,7 +16,7 @@ Katledilen 103 yoldaşımızın isimlerini Ankara'nın 103 cadde ve sokağına v
 
 5 yıl önce yoldaşlarımızın cenazelerine, yaralılarımızın üzerine gaz bombası atan katiller, tren garına yürüyüp anmayı katliamın yapıldığı yerde gerçekleştireceğimizi söyleyince yine karşımıza çıktılar. 
 
-Çıktılar çünkü katiller hala yaptıkları katliamın arkasındalar. Bizler de hala kavgamızın arkasındayız. Bizi bitirmek istediler bitmedik. Bizi öldürmek istediler ölmedik. Bir daha bizi sokağa çıkarmamak istediler, sokaktan bir adım bile geri atmadık.
+Çıktılar çünkü katiller hala yaptıkları katliamın arkasındalar. Bizler de hala kavgamızın arkasındayız. Bizi bitirmek istediler bitmedik. Bizi öldürmek istediler ölmedik. Bir daha bizi sokağa çıkarmamak istediler, sokaktan bir adım bile geri atmadık. 
 
 Devrimci anarşistler olarak10 Ekim'de Ankara ve İstanbul'da katliamın hesabını sormak için sokaktaydık. Ankara'da 9 yoldaşımız gözaltına alındı. Bizler, katilin kim olduğunu biliyoruz. 5 yıl değil, 50 yıl da geçse katillerin peşini bırakmayacağız.
 
