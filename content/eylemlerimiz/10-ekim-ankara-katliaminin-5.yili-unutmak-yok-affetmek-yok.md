@@ -5,6 +5,13 @@ image = "/images/uploads/img-20201010-wa0156-2020-10-10.jpg"
 title = "10 Ekim Ankara Katliamının 5.Yılı  : Unutmak Yok, Affetmek Yok! "
 
 +++
+
+Saldırı videosu;
+
+[https://youtu.be/JhiLH0thYQc](https://youtu.be/JhiLH0thYQc "https://youtu.be/JhiLH0thYQc")
+
+10 Ekim Bildiri - Afiş - Yazılama Çalışması
+
 ![](/images/uploads/fb_img_1602352204103-2020-10-10.jpg)
 
 ![](/images/uploads/fb_img_1602352206441-2020-10-10.jpg)
