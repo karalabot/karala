@@ -4,7 +4,7 @@ image = "/images/uploads/img-20201010-wa0156-2020-10-10.jpg"
 title = "10 Ekim Ankara Katliamının 5.Yılı  : 10 Ekimi Unutmak, Katilleri Affetmek Yok"
 
 +++
-10 Ekim Ankara Katliamı'nın üzerinden 5 yıl geçti. Bizler, 5 yıl önce o meydanda bombalananlar, 5 yıldır üzüntüyü öfkeyle bileyenler, acıyı kavgaya dönüştürenler; bu sene de yürüdük o kanlı meydana. Bu sene de katiller, katliamı sahiplenerek karşımıza çıktılar. Bu sene de kavgamız, katillerin suratında patladı.
+10 Ekim Ankara Katliamı'nın üzerinden 5 yıl geçti. Bizler, 5 yıl önce o meydanda bombalananlar, 5 üzüntüyü bileyenler, acıyı kavgaya dönüştürenler; bu sene de yürüdük o kanlı oluşur. Bu sene de katiller, katliamı sahiplenerek karşımıza çıktılar. Bu sene de kavgamız, katillerin suratında patladı.
 
 Günlerce Ankara sokaklarını 103 yoldaşımızın kavgasını büyüterek adımladık. Mamak'ta, Dikmen'de ve Sincan-Kayaş banliyö hattında yoldaşlarımızın kavgasını anlatan, yoldaşlarımızı anmaya çağıran bildirilerimizi dağıttık.
 
@@ -25,6 +25,12 @@ Devrimci anarşistler olarak10 Ekim'de Ankara ve İstanbul'da katliamın hesabı
 Saldırı videosu;
 
 [https://youtu.be/JhiLH0thYQc](https://youtu.be/JhiLH0thYQc "https://youtu.be/JhiLH0thYQc")
+
+Çağrı videoları:
+
+[https://twitter.com/karaladergi/status/1312431904105345024?s=19](https://twitter.com/karaladergi/status/1312431904105345024?s=19 "https://twitter.com/karaladergi/status/1312431904105345024?s=19")
+
+[https://twitter.com/karaladergi/status/1313720392557776896?s=19](https://twitter.com/karaladergi/status/1312431904105345024?s=19 "https://twitter.com/karaladergi/status/1312431904105345024?s=19")
 
 10 Ekim Bildiri - Afiş - Yazılama Çalışması
 
