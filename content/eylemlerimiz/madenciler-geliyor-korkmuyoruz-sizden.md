@@ -1,6 +1,5 @@
 +++
 date = 2020-10-19T21:00:00Z
-draft = true
 image = "/images/uploads/korkmuyor-2020-10-20.jpg"
 title = "Madenciler Geliyor! Korkmuyoruz Sizden"
 
