@@ -1,6 +1,5 @@
 +++
 date = 2020-11-19T21:00:00Z
-draft = true
 image = "/images/uploads/whatsapp-image-2020-11-20-at-13-30-32-2020-11-20.jpeg"
 keywords = []
 title = "Devrimci anarşist Buenaventura Durruti’nin Bugün Bizim Yüreklerimizde Büyüyen Kavgasını Selamlıyoruz!"
