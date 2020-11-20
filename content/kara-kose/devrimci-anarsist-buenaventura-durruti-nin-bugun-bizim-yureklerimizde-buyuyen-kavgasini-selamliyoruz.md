@@ -1,8 +1,8 @@
 +++
 date = 2020-11-19T21:00:00Z
-image = "/images/uploads/whatsapp-image-2020-11-20-at-13-30-32-2020-11-20.jpeg"
+image = "/images/uploads/whatsapp-image-2020-11-20-at-13-43-51-2020-11-20.jpeg"
 keywords = []
-title = "Devrimci Anarşist Buenaventura Durruti’nin Bugün Bizim Yüreklerimizde Büyüyen Kavgasını Selamlıyoruz!"
+title = "Devrimci Anarşist Buenaventura Durruti’nin Kavgasını Selamlıyoruz!"
 
 +++
 Bundan 84 yıl önce 20 Kasım 1936’da İberya Devrimi'nin, CNT ve FAI'nin, tüm İberya ezilenlerinin yoldaşı devrimci anarşist Buenaventura Durruti, faşizme karşı savaşta, bir cepheden diğerine koşarken yaşamını yitirdi. 16 yaşında bir tamirci çırağı olarak başladığı devrimci anarşizm mücadelesine, dünyanın tüm iktidarlarına karşı savaşırken yüzbinlerin omuzlarında veda etti.
