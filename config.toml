@@ -1,102 +1,53 @@
 baseURL = "https://karala.org"
+enableRobotsTXT = "true"
 languageCode = "tr"
-title = "Anarşist Dergi | KARALA"
-enableRobotsTXT = "true" 
-
-theme = ["hugo-search-fuse-js", "karala"]
-#theme = "karala"
 relativeURLs = true
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-
-
-[menu]
-
- [[menu.main]]
-    identifier = "admin"
-    name = "Giriş Yap"
-    url = "https://app.forestry.io/sites/snp4o-4iwuufcg/#/sections/posts/content/posts"
-    weight = 100
-
-  [[menu.main]]
-    identifier = "orgutlen"
-    name = "Örgütlen"
-    url = "/orgutlen/"
-    weight = 120
-
-#  [[menu.main]]
-#    identifier = "tags"
-#    name = "Etiketler"
-#    url = "/tags/"
-#    weight = 110
-
-  [[menu.main]]
-    identifier = "posts"
-    name = "Yazılar"
-    url = "/posts/"
-    weight = 120
-
-  [[menu.main]]
-    identifier = "eylemlerimiz"
-    name = "Eylemlerimiz"
-    url = "/eylemlerimiz/"
-    weight = 130
-
-  [[menu.main]]
-    identifier = "kara-kose"
-    name = "Kara Köşe"
-    url = "/kara-kose/"
-    weight = 140
-
-
-
- [[menu.main]]
-    identifier = "categories"
-    name = "Dergi"
-    url = "/categories/"
-    weight = 150
-
-
-
-
-
-#Adding code highlight  themes/karala/static/css/syntax.css
-
+theme = ["hugo-search-fuse-js", "karala"]
+title = "Anarşist Dergi | KARALA"
+[Social]
+twitter = "karala"
+[[menu.main]]
+identifier = "categories"
+name = "Dergi"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-
-
-
-#add variable
-
+url = "/categories/"
+weight = 6
+[[menu.main]]
+identifier = "kara-kose"
+name = "Kara Köşe"
+url = "/kara-kose/"
+weight = 5
+[[menu.main]]
+identifier = "eylemlerimiz"
+name = "Eylem"
+url = "/eylem/"
+weight = 4
+[[menu.main]]
+identifier = "orgutlen"
+name = "Örgütlen"
+url = "/orgutlen/"
+weight = 2
+[[menu.main]]
+identifier = "admin"
+name = "Giriş Yap"
+url = "https://app.forestry.io/sites/snp4o-4iwuufcg/#/sections/posts/content/posts"
+weight = 1
+[[menu.main]]
+identifier = "posts"
+name = "Yazılar"
+url = "/posts/"
+weight = 3
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 [params]
-
 baslik = "Yazılar"
 baslikkategori = "Kategori"
+facebook = "karaladergi"
 instagram = "karaladergi"
 twitter = "karaladergi"
-facebook = "karaladergi"
 yazar = "karala"
-
-
-## social card
-
-
-[Social]
-  twitter = "karala"
-
-
-#add sitemap.xml
-
 [sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
-
-
-
-## STORE ##
-
-#{{ range first 5 (where .Pages "Type" "posts") }} # themes/karala/layouts/index.html at 205
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
