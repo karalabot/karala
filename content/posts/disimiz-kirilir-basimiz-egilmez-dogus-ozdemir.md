@@ -3,7 +3,7 @@ categories = []
 date = 2021-02-07T21:00:00Z
 image = "/images/uploads/whatsapp-image-2021-02-07-at-21-57-33-2021-02-08.jpeg"
 tags = []
-title = "Dişimiz Kırılır, Başımız Eğilmez - Doğuş Özdemir"
+title = "Dişimiz Kırılır, Başımız Eğilmez! - Doğuş Özdemir"
 
 +++
 Ankara, devletin başkenti. Bütün gri binalarıyla, bütün karanlığıyla devlet burada. 2016 yılında ilan edilen OHAL'den beri şehirde her türlü eylem ve etkinlik fiilen yasak. Son bir yılda Ankara'da onlarca eyleme polis saldırdı. Bu saldırılarda yüzlerce insan gözaltına alındı. Ankara'da eylem yapmak, pek çok yerden farklı birçok şey gerektiriyor.
