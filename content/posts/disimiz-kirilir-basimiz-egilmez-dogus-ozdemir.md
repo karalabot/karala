@@ -18,9 +18,9 @@ Ankara'da şiddet, hayır demenizle birlikte başlar. Neye hayır dediğinizin b
 
 Ben de hayır diyenlerdenim, evet. Yere düşürüldükten sonra ters kelepçe vurulan, başını eğmeyip slogan atan ve çevresi kalkanlarla kapatıldıktan sonra yüzüne bilincini kaybedene kadar tekme atılıp dişleri kırılan. Ama şanslı olanlardanım, bir de tutuklananlarımız var. Sırf hayır dediği için çıplak arama ve türlü işkenceye maruz kalanlarımız, sonra katledilenlerimiz; kurşunlara ve bombalara hedef olanlarımız var.
 
-Burada şiddet, hayır demenizle başlar. Emir kulları(!) demir kesercesine saldırır size; o masum biber gazıyla, jopla, sayısız hakaretle, küfürle... Dedim ya neye hayır dediğinizin bir önemi yok, kime hayır dediğinizle ilgilidir konu. Bırak hayır demeyi, hayır demeye niyetliyseniz dahi evinizin önüne pusu kurar, komşularınızın gözü önünde tekme tokat alıverirler sizi zırhlı bir aracın içine. Eylem saati geçene kadar hiç bir işlem yapılmadan, kendi yasalarıyla dalga geçercesine, emniyetin otoparkında esir tutarlar sizi. Yakalayamazlarsa evden çıkarken, ilk gördükleri yerde bacağınızı kırarlar. Ve gözünüzün içine bakarak derler ki: Ben devletim, beni tanı.
-
 ![](/images/uploads/whatsapp-image-2021-02-08-at-16-15-30-2021-02-08.jpeg)
+
+Burada şiddet, hayır demenizle başlar. Emir kulları(!) demir kesercesine saldırır size; o masum biber gazıyla, jopla, sayısız hakaretle, küfürle... Dedim ya neye hayır dediğinizin bir önemi yok, kime hayır dediğinizle ilgilidir konu. Bırak hayır demeyi, hayır demeye niyetliyseniz dahi evinizin önüne pusu kurar, komşularınızın gözü önünde tekme tokat alıverirler sizi zırhlı bir aracın içine. Eylem saati geçene kadar hiç bir işlem yapılmadan, kendi yasalarıyla dalga geçercesine, emniyetin otoparkında esir tutarlar sizi. Yakalayamazlarsa evden çıkarken, ilk gördükleri yerde bacağınızı kırarlar. Ve gözünüzün içine bakarak derler ki: Ben devletim, beni tanı.
 
 Devlet! İyi tanırız seni. En iyi biz tanırız. Sen de bizi iyi tanırsın elbet. Binlerce robokop çalıştırır durursun bizim için. Ekmek diyene gaz, adalet diyene kurşun, özgürlük diyene bomba atarsın. Güvenliğin savaş, adaletin hapistir; özgürlüğün kölelik, varlığın yoksulluktur. Seni en iyi biz tanırız zenginlerin, patronların, asalakların koruyucusu; zalimliğin mucidi, mazlumların düşmanı!
 
