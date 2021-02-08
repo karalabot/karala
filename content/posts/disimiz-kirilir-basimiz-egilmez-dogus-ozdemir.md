@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2021-02-07T21:00:00Z
-draft = true
 image = "/images/uploads/whatsapp-image-2021-02-07-at-21-57-33-2021-02-08.jpeg"
 tags = []
 title = "Dişimiz Kırılır, Başımız Eğilmez - Doğuş Özdemir"
