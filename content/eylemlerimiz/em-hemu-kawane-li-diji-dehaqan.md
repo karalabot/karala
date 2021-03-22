@@ -12,6 +12,8 @@ Zalim Dehaq'lara karşı Kawa olmak için Ankara Newroz alanındaydık. Newroz, 
 
 [https://twitter.com/karaladergi/status/1374022903516311555](https://twitter.com/karaladergi/status/1374022903516311555 "https://twitter.com/karaladergi/status/1374022903516311555")
 
+    <iframe src="https://www.facebook.com/plugins/video.php?height=308&href=https%3A%2F%2Fwww.facebook.com%2Fanarsistfaaliyetorg%2Fvideos%2F823402258523573%2F&show_text=false&width=560" width="560" height="308" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
 ![](/images/uploads/2-2021-03-22.jpg)
 
 ![](/images/uploads/3-2021-03-22.jpg)
