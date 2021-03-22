@@ -14,4 +14,10 @@ Her Yer Boğaziçi Her Yer Direniş!
 
 Ferman Devletin Üniversiteler Bizimdir!
 
+**_Video:_**
+
+[https://fb.watch/4oFW1pQ_vY/](https://fb.watch/4oFW1pQ_vY/ "https://fb.watch/4oFW1pQ_vY/")
+
+[https://fb.watch/4oFYFimZDn/](https://fb.watch/4oFYFimZDn/ "https://fb.watch/4oFYFimZDn/")
+
 ![](/images/uploads/eylem2-2021-03-22.jpg)
