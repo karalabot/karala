@@ -1,6 +1,5 @@
 +++
 date = 2021-02-04T21:00:00Z
-draft = true
 image = "/images/uploads/bogazici-2021-03-22.jpg"
 title = "Başımız Dik, Cesaretle Kazanıyoruz!"
 
