@@ -1,6 +1,5 @@
 +++
 date = 2021-01-07T21:00:00Z
-draft = true
 image = "/images/uploads/eylemden-2021-03-22.jpg"
 title = "Korkmadık, Cesaretle Üstlerine Yürüdük!"
 
