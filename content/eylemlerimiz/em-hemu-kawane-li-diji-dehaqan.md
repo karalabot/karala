@@ -2,7 +2,7 @@
 date = 2021-03-20T21:00:00Z
 draft = true
 image = "/images/uploads/0-2021-03-22.jpg"
-title = "Em Hemû Kawane Li Dijî Dehaqan!"
+title = "Em Hemû Kawane Li Dijî Dehaqan! - 2021 Newrozu"
 
 +++
 Zalim Dehaq'lara karşı Kawa olmak için Ankara Newroz alanındaydık. Newroz, Dehaq'lara karşı binlerce yıllık mücadelenin, halkların özgürlük mücadelesinin günüdür.
