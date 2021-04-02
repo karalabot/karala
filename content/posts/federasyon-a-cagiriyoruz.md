@@ -1,7 +1,6 @@
 +++
 categories = [""]
 date = 2021-04-01T21:00:00Z
-draft = true
 image = "/images/uploads/federasyon-dek-2021-04-02.png"
 tags = []
 title = "Federasyon'a Çağırıyoruz!"
